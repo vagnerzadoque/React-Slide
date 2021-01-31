@@ -34,8 +34,8 @@ const MainLis = () => {
     useEffect(() => {
         tamanho.current.style.marginLeft = 0
         const totaldeCard = Object.keys(pokemons).length
-        const totalver = (450 * totaldeCard) + 750
-        setTotalDivContainer(totalver)
+        const totalLarguraContainerPokLis = (450 * totaldeCard) + 750
+        setTotalDivContainer(totalLarguraContainerPokLis)
     }, [pokemons])
 
 
